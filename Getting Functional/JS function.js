@@ -1,13 +1,44 @@
-function whatShallWear (temp) {
-    if (temp < 60) {
-        console.log("Wear a jacket");
-    } else if (temp < 70) {
-        console.log("Wear a Sweater");
+// var dogName = "rover";
+// var dogWeight = 23;
+// if (dogWeight > 20) {
+//     console.log(dogName + " says WOOF WOOF");
+// } else {
+//     console.log(dogName + " says woof woof");
+// }
+
+// var dogName = "spot";
+// var dogWeight = 13;
+// if (dogWeight > 20) {
+//     console.log(dogName + " says WOOF WOOF");
+// } else {
+//     console.log(dogName + " says woof woof");
+// }
+
+// var dogName = "moomin";
+// var dogWeight = 34;
+// if (dogWeight > 20) {
+//     console.log(dogName + " says WOOF WOOF");
+// }else {
+//     console.log(dogName + " says woof woof");
+// }
+
+// var dogName = "mollie";
+// var dogWeight = 18;
+// if (dogWeight > 20) {
+//     console.log(dogName + " says WOOF WOOF");
+// }else {
+//     console.log(dogName + " says woof woof");
+// }
+
+function bark(name, weight) {
+    if (weight > 20) {
+        console.log(name + " says WOOF WOOF");
     } else {
-        console.log("Wear t-shirt")
+        console.log(name + " says woof woof")
     }
 }
 
-whatShallWear(50);
-whatShallWear(60);
-whatShallWear(80);
+bark("rover", 18);
+bark("spot", 23);
+bark("moomin", 34);
+bark("mollie", 15)
